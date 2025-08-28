@@ -7,7 +7,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: 'Arial', sans-serif;
-    background-color: #F0EEE5;
+    background-color: whitesmoke;
     display: flex;
 }
 body nav{
@@ -17,28 +17,49 @@ body nav{
     background-size: cover;
 }
 body nav a img{
-    /* margin-top: -5px;
-    margin-left: 50px; */
-    width: 100px;
+    /* margin-top: -5px; */
+    /* margin-left: 50px;  */
+    width: 200px;
     position: absolute;
     top: 6%;
     left: 8%;
     transform: translate(-50%, -50%);
-    animation: myfirst 1s ease-in-out;
+    animation: myfirst 30s infinite linear;
 }
 
 @keyframes myfirst {
-    0% { transform: translate(-80%, -80%) rotate(0deg); }
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 body nav #seta{
     position: absolute;
-    top: 3.6%;
+    top: 3.8%;
     left: 9.5%;
     width: 100px;
     font-family: Arial, 'Helvetica For Target', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: black;
+}
+
+
+#sss{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+#sss img{
+    width: 100%;
+    text-align: center;
+    margin: 300px 55%;
+    transform: translate(-50%, -50%);
+    animation: mysec 30s infinite linear;
+    opacity: 100%;
+}
+
+@keyframes mysec {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
